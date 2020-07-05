@@ -1,5 +1,5 @@
-import Head from 'next/head';
+import { Greeting } from 'components/Greeting';
 
 export default function Home() {
-  return <div>Next.js + Tailwind CSS template</div>;
+  return <Greeting />;
 }
