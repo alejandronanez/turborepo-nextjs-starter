@@ -1,10 +1,8 @@
 module.exports = {
-  purge: ['./src/**/*.tsx'],
+  purge: ['./src/pages/**/*.tsx', './src/components/**/*.tsx'],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
-  },
-  future: {
-    removeDeprecatedGapUtilities: true,
   },
   variants: {},
   plugins: [],
