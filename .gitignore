@@ -11,6 +11,8 @@
 # next.js
 /.next/
 /out/
+/.idea
+/.vscode
 
 # production
 /build
