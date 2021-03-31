@@ -10,3 +10,11 @@ It is barely different from the [base project in the Next.js repo](https://githu
 
 - Typescript's `baseUrl` and `paths`
 - Has GoogleAnalytics configured
+- Has Prettier
+- Has .editorconfig
+
+## Installation
+
+```
+npx create-next-app --example https://github.com/alejandronanez/nextjs-tailwind --use-npm your-app-name
+```
