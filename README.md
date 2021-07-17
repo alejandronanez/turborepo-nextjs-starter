@@ -1,20 +1,30 @@
-# Next.js + Tailwind + Typescript template
+# Next.js + Tailwind + Typescript starter template
 
-Base project template using
+Base Next.js project template that uses
 
-- Next.js 10
-- TailwindCSS 2
-- Typescript
-
-It is barely different from the [base project in the Next.js repo](https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss) as it uses:
-
-- Typescript's `baseUrl` and `paths`
-- Has GoogleAnalytics configured
-- Has Prettier
-- Has .editorconfig
+- Next.js 11+
+- TailwindCSS 2+
+- Typescript 4+
+- ESlint
+- Prettier
+- editorconfig
+- Typescript's `baseUrl` and `paths` for absolute imports
 
 ## Installation
 
 ```
 npx create-next-app --example https://github.com/alejandronanez/nextjs-tailwind --use-npm your-app-name
+
+# Or
+
+npx degit alejandronanez/nextjs-tailwind your-project-name
+```
+
+## Available scripts
+```
+dev -> run the dev server
+build -> build the project
+start -> run the previously built project
+typecheck -> run tsc against the codebase
+lint -> run next lint
 ```
