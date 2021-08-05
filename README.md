@@ -6,6 +6,7 @@ Base Next.js project template that uses
 - TailwindCSS 2+
 - Typescript 4+
 - ESlint
+- (ts-)jest
 - Prettier
 - editorconfig
 - Typescript's `baseUrl` and `paths` for absolute imports
@@ -21,10 +22,12 @@ npx degit alejandronanez/nextjs-tailwind your-project-name
 ```
 
 ## Available scripts
+
 ```
 dev -> run the dev server
 build -> build the project
 start -> run the previously built project
 typecheck -> run tsc against the codebase
 lint -> run next lint
+test -> run Jest
 ```
