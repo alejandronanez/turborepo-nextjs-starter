@@ -4,4 +4,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
-module.exports = withPlugins([[withBundleAnalyzer]]);
+module.exports = withPlugins([[withBundleAnalyzer]], {
+  experimental: {
+    esmExternals: true,
+  },
+});
