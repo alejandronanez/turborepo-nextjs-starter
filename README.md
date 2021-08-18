@@ -14,11 +14,11 @@ Base Next.js project template that uses
 ## Installation
 
 ```
-npx create-next-app --example https://github.com/alejandronanez/nextjs-tailwind --use-npm your-app-name
+npx create-next-app --example https://github.com/alejandronanez/nextjs-tailwind-starter --use-npm your-app-name
 
 # Or
 
-npx degit alejandronanez/nextjs-tailwind your-project-name
+npx degit alejandronanez/nextjs-tailwind-starter your-project-name
 ```
 
 ## Available scripts
