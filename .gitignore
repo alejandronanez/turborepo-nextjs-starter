@@ -6,16 +6,16 @@ node_modules
 .pnp.js
 
 # testing
-/coverage
+coverage
 
 # next.js
-/.next/
-/out/
-/.idea
-/.vscode
+.next/
+out/
+.idea
+.vscode
 
 # production
-/build
+build
 
 # misc
 .DS_Store
