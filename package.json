@@ -1,0 +1,13 @@
+{
+  "name": "@alejandronanez/monorepo-starter",
+  "description": "A monorepo that uses Next.js, Tailwind, TypeScript, Jest and Storybook",
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "turbo": "^1.2.6"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel --no-cache",
+    "build": "turbo run build",
+    "test": "turbo run test"
+  }
+}
