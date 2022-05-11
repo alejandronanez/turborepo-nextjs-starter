@@ -8,7 +8,9 @@
     "build": "tsup src/index.ts --dts"
   },
   "tsup": {
-    "entry": ["src/index.ts"],
+    "entry": [
+      "src/index.ts"
+    ],
     "splitting": false,
     "sourcemap": true,
     "clean": true
@@ -17,6 +19,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsup": "^5.12.6"
+    "tsup": "^5.12.7"
   }
 }
