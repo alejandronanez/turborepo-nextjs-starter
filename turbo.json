@@ -1,11 +1,8 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "baseBranch": "origin/main",
   "pipeline": {
     "dev": {
-      "cache": false,
-      "dependsOn": ["^build"],
-      "outputs": [".next/**"]
+      "cache": false
     },
     "test": {
       "dependsOn": ["^build"]
